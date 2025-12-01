@@ -1,5 +1,7 @@
 # RTB_ONNX
 
+# Server & CLI Inference Commands
+
 ```python
 uvicorn app:app --host 0.0.0.0 --port 8000 --reload
 ```
@@ -24,6 +26,8 @@ python test.py \
   --age_similarity "0.0" \
   --is_target_match 1
 ```
+
+# Sample Inference Input 
 
 ```python
 raw_sample = {
@@ -54,6 +58,8 @@ raw_sample = {
     "is_target_match": 0 #위의 모든 조건이 충족되었는지 0 or 1
 }
 ```
+
+# Feature Value Ranges
 
 ================================================================================
 
