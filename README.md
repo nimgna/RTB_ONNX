@@ -12,8 +12,8 @@ python test.py \
   --gender F \
   --region 수원시 \
   --spending_power High \
-  --fav_category Game \
-  --ad_category Game \
+  --fav_category 게임/엔터 \
+  --ad_category 게임/엔터 \
   --price_level Mid \
   --target_gender Both \
   --target_ages "['20-30', '30-40']" \
@@ -37,10 +37,10 @@ raw_sample = {
     "gender": "M",
     "region": "수원시",
     "spending_power": "High",
-    "fav_category": "Game",
+    "fav_category": "게임/엔터",
     
     # Item
-    "ad_category": "Game",
+    "ad_category": "게임/엔터",
     "price_level": "Mid",
     "target_gender": "Both",
     "target_ages": "['20-30', '30-40']",
